@@ -1,10 +1,13 @@
 GET http://localhost:3001/api/notes/
 
 ###
+Get http://localhost:3001/api/notes/613b5faa1c8f2443ef414ebd
+
+###
 POST http://localhost:3001/api/notes/ HTTP/1.1
 content-type: application/json
 
 {
-      "content": "Test data can execute only Javascript",
-      "important": false
+      "content": "Sneppy True",
+      "important": true
 }
