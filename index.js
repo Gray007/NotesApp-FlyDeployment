@@ -28,7 +28,7 @@ app.get('/api/notes/:id', (request, response, next) => {
 
 app.post('/api/notes', (request, response, next) => {
   const body = request.body
-  
+
   // if (!body.content === undefined) {
   //   return response.status(400).json({ error: 'content missing' })
   // }
@@ -92,6 +92,6 @@ const errorHandler = (error, request, response, next) => {
 app.use(errorHandler)
 
 const PORT = process.env.PORT || 3001
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`)
-  })
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})
