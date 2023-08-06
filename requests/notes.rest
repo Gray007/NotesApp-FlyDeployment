@@ -1,7 +1,7 @@
 GET http://localhost:3001/api/notes/
 
 ###
-Get http://localhost:3001/api/notes/613b5faa1c8f2443ef414ebd
+Get http://localhost:3001/api/notes/64cf8760556da11be4c9be87
 
 ###
 POST http://localhost:3001/api/notes/ HTTP/1.1
@@ -13,11 +13,11 @@ content-type: application/json
 }
 
 ###
-PUT http://localhost:3001/api/notes/613b87851323a30d74b6a0ea
+PUT http://localhost:3001/api/notes/64cf8760556da11be4c9be87
 content-type: application/json
 
 {
-      "content": "Sneppy True",
+      "content": "Sneppy True 2",
       "important": true
 }
 
