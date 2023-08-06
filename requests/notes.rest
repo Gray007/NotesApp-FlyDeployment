@@ -4,13 +4,13 @@ GET http://localhost:3001/api/notes/
 Get http://localhost:3001/api/notes/64cf8760556da11be4c9be87
 
 ###
-POST http://localhost:3001/api/notes/ HTTP/1.1
+POST http://localhost:3001/api/notes
 content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0Y2ZkMmU5YjBmODRmNzY3NTNhNmUwZiIsImlhdCI6MTY5MTM1NzEwMH0.ZiuXOWAQWMpYyjkg0hlbnxdXM7p83tGUhBX0XM2Vymw
 
 {
-      "content": "Sneppy testing users id even more",
-      "important": true,
-      "userId": "64cfd2e9b0f84f76753a6e0f"
+      "content": "Sneppy testing jwt",
+      "important": true
 }
 
 ###
