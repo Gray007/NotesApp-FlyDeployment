@@ -8,8 +8,9 @@ POST http://localhost:3001/api/notes/ HTTP/1.1
 content-type: application/json
 
 {
-      "content": "Sneppy True",
-      "important": true
+      "content": "Sneppy testing users id even more",
+      "important": true,
+      "userId": "64cfd2e9b0f84f76753a6e0f"
 }
 
 ###
